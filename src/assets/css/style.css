@@ -2,162 +2,164 @@
 
 input,
 button {
-  border-radius: 0.4rem;
+ border-radius: 0.4rem;
 }
 
 @media screen and (max-width: 912px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Space Grotesk;
-  }
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Space Grotesk;
+ }
 
-  body {
-    margin: 0;
-    padding: 1rem;
-    background: #111f20;
-    color: #e1e1e1;
-    display: flex;
-    justify-content: center;
-  }
+ body {
+  margin: 0;
+  padding: 1rem;
+  background: #111f20;
+  color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+ }
 
-  .container {
-    height: auto;
-    width: 60%;
-    padding: 0.5rem;
-    background: #e1e1e111;
-    backdrop-filter: blur(5px);
-    border-radius: 0.4rem;
-    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.089);
-  }
+ .container {
+  height: auto;
+  width: 60%;
+  padding: 0.5rem;
+  background: #e1e1e111;
+  backdrop-filter: blur(5px);
+  border-radius: 0.4rem;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.089);
+ }
 
-  .input-content {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    display: flex;
-    gap: 1rem;
-  }
+ .input-content {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+ }
 
-  input {
-    width: 70%;
-    font-size: 1.5rem;
-    padding: 0.4rem;
-    background: #b0b3a8;
-    color: white;
-  }
+ input {
+  width: 70%;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  background: #b0b3a8;
+  color: white;
+ }
 
-  button {
-    width: 30%;
-    font-size: 1.3rem;
-    cursor: pointer;
-    background: #3d6b6d;
-    color: rgb(220, 220, 220);
-  }
+ button {
+  width: 30%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: #3d6b6d;
+  color: rgb(220, 220, 220);
+ }
 
-  button,
-  input {
-    border: 0;
-    outline: 0;
-  }
+ button,
+ input {
+  border: 0;
+  outline: 0;
+ }
 
-  #message {
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0.5rem;
-  }
+ #message {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+ }
 
-  #message p {
-    text-align: center;
-    margin: 0.8rem 0;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    background: #1d4e52;
-    border-radius: 0.3rem;
-  }
+ #message p {
+  text-align: center;
+  margin: 0.8rem 0;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background: #1d4e52;
+  border-radius: 0.3rem;
+ }
 
-  #message h2 {
-    padding: 0.5rem;
-    font-size: 2.2rem;
-    text-align: center;
-    background: #1b4140;
-    border-radius: 0.5rem;
-  }
+ #message h2 {
+  padding: 0.5rem;
+  font-size: 2.2rem;
+  text-align: center;
+  background: #1b4140;
+  border-radius: 0.5rem;
+ }
 }
 
 @media screen and (min-width: 912px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Space Grotesk;
-  }
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Space Grotesk;
+ }
 
-  body {
-    margin: 0;
-    padding: 1rem;
-    background: #111f20;
-    color: #e1e1e1;
-    display: flex;
-    justify-content: center;
-  }
+ body {
+  margin: 0;
+  padding: 1rem;
+  background: #111f20;
+  color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+ }
 
-  .container {
-    height: auto;
-    width: 40%;
-    padding: 0.5rem;
-    background: #e1e1e111;
-    border-radius: 0.4rem;
-    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.089);
-  }
+ .container {
+  height: auto;
+  width: 40%;
+  padding: 0.5rem;
+  background: #e1e1e111;
+  border-radius: 0.4rem;
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.089);
+ }
+ .info {
+  margin: 0 0 0 0.5rem;
+ }
+ .input-content {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+ }
 
-  .input-content {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    display: flex;
-    gap: 1rem;
-  }
+ input {
+  width: 70%;
+  font-size: 1.5rem;
+  padding: 0.4rem;
+  background: #b0b3a8;
+  color: white;
+ }
 
-  input {
-    width: 70%;
-    font-size: 1.5rem;
-    padding: 0.4rem;
-    background: #b0b3a8;
-    color: white;
-  }
+ button {
+  width: 30%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background: #3d6b6d;
+  color: rgb(220, 220, 220);
+ }
 
-  button {
-    width: 30%;
-    font-size: 1.3rem;
-    cursor: pointer;
-    background: #3d6b6d;
-    color: rgb(220, 220, 220);
-  }
+ button,
+ input {
+  border: 0;
+  outline: 0;
+ }
 
-  button,
-  input {
-    border: 0;
-    outline: 0;
-  }
+ #message {
+  margin: 0.5rem 0 0.5rem 0;
+  padding: 0.5rem;
+ }
 
-  #message {
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0.5rem;
-  }
+ #message p {
+  text-align: center;
+  margin: 0.8rem 0;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background: #1d4e52;
+  border-radius: 0.3rem;
+ }
 
-  #message p {
-    text-align: center;
-    margin: 0.8rem 0;
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    background: #1d4e52;
-    border-radius: 0.3rem;
-  }
-
-  #message h2 {
-    padding: 0.5rem;
-    font-size: 2.2rem;
-    text-align: center;
-    background: #1b4140;
-    border-radius: 0.5rem;
-  }
+ #message h2 {
+  padding: 0.5rem;
+  font-size: 2.2rem;
+  text-align: center;
+  background: #1b4140;
+  border-radius: 0.5rem;
+ }
 }
