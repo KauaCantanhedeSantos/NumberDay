@@ -1,0 +1,29 @@
+# Portuguese Version
+
+  # Desafio: Adivinhe o Número:
+   - Neste desafio, o usuário tem um total de 6 tentativas para adivinhar um número.
+   - Regras:
+    1. A cada tentativa, o usuário recebe um feedback. Se adivinhou o número corretamente, uma mensagem de sucesso é exibida.
+    2. Se a tentativa estiver errada, o usuário pode continuar tentando até esgotar o limite de tentativas.
+    3. Se o usuário adivinhar o número na primeira tentativa, apenas uma mensagem informando que ele acertou será exibida.
+    4. Se o usuário errar, uma mensagem informando que ele errou será exibida.
+    5. Se o usuário esgotar todas as tentativas, uma mensagem informando que as tentativas acabaram será exibida.
+    
+   - O objetivo é fazer com que todas as tentativas do usuário, bem como o resultado final, sejam exibidos no campo de mensagem.
+ 
+# English Version
+
+  # Challenge: Guess the Number
+
+   - In this challenge, the user has a total of 6 attempts to guess a number.
+   -Rules:
+    1. With each attempt, the user receives feedback. If they guessed the number correctly, a success message is displayed.
+    2. If the attempt is wrong, the user can continue trying until the limit of attempts is exhausted.
+    3. If the user guesses the number on the first attempt, only a message informing that they got it right will be displayed.
+    4. If the user is wrong, a message informing that they were wrong will be displayed.
+    5. If the user exhausts all attempts, a message informing that the attempts are over will be displayed.
+    
+   - The goal is to have all the user's attempts, as well as the final result, displayed in the message field.
+ 
+
+
