@@ -24,14 +24,16 @@ button {
 
  .container {
   height: auto;
-  width: 60%;
+  width: 100%;
   padding: 0.5rem;
   background: #e1e1e111;
   backdrop-filter: blur(5px);
   border-radius: 0.4rem;
   box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.089);
  }
-
+ .info {
+  margin: 0;
+ }
  .input-content {
   margin: 0.5rem 0;
   padding: 0.5rem;
